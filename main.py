@@ -1162,7 +1162,7 @@ async def txt_handler(bot: Client, m: Message):
                         t_name = "Untitled"
                         v_name = re.sub(r":.*", "", raw_title).strip()
                     
-                    cc = f'Title :** `{v_name}  ` \n**Topic : {t_name} \n**Batch : {b_name} \n**👨🏻‍💻 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐁𝐲 : **{CR}\n'
+                    cc = f'Title :** `{v_name}  ` \n\n**Topic : {t_name} \n\n**Batch : {b_name} \n\n**👨🏻‍💻 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝 𝐁𝐲 : **{CR}\n'
                     cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{v_name} .pdf`\n<blockquote><b>Batch Name : {b_name}\nTopic Name : {t_name}</b></blockquote>\n\n**Extracted by➤**{CR}\n'
                     cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{v_name} .zip`\n<blockquote><b>Batch Name : {b_name}\nTopic Name : {t_name}</b></blockquote>\n\n**Extracted by➤**{CR}\n'
                     ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{v_name} .jpg`\n<blockquote><b>Batch Name : {b_name}\nTopic Name : {t_name}</b></blockquote>\n\n**Extracted by➤**{CR}\n'
